@@ -1,0 +1,446 @@
+/* ============================1199px start====================== */
+@media only screen and (max-width: 1199px) {
+    .our_courses .wraper {
+        margin: 0 -15px;
+    }
+    .our_courses .wraper .child_box {
+        padding: 0 15px;
+    }
+    .instructors .parent_box {
+        margin: 0 -15px;
+    }
+    .instructors .parent_box .child_box {
+        padding: 0 15px;
+    }
+/* ============================1199px end====================== */    
+}
+
+
+/* ============================1024px start====================== */
+@media only screen and (max-width: 1024px) {
+    .header {
+        padding-top: 70px;
+    }
+    .gallery .inner img {
+        object-position: center;
+    }
+/* ============================1024px end====================== */    
+}
+
+/* ============================991px start====================== */
+@media only screen and (max-width: 991px) {
+    .header {
+        padding-top: 40px;
+    }
+    .header .logo {
+        max-width: 90px;
+    }
+    .header .menu_bar .menu_icon {
+        padding-left: 0;
+    }
+    .header .menu_bar ul {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 80%;
+        height: 100vh;
+        background: #e550ed;
+        transition: 0.6s;
+        padding: 40px 0 0 50px;
+    }
+    .header .show ul {
+        left: 0;
+    }
+    .header .menu_bar ul li {
+        padding: 15px 0;
+    }
+    .header .menu_bar ul li a {
+        font-size: 18px;
+        font-weight: 600;
+        padding-bottom: 0;
+    }
+    .header .menu_bar ul li a::after {
+        display: none;
+    }
+    .header .menu_bar .menu_icon .menu_btn i {
+        display: none;
+    }
+    .header .menu_bar .menu_icon .menu_btn .line {
+        width: 25px;
+        height: 3px;
+        background: #fff;
+        border-radius: 3px;
+        transition: 0.4s;
+    }
+    .header .menu_bar .menu_icon .menu_btn .line {
+        margin-bottom: 4px;
+    }
+    .header .menu_bar .menu_icon .menu_btn .line:last-child {
+        margin-bottom: 0;
+    }
+    .header .menu_bar .menu_icon button.active .line:nth-child(3) {
+        display: none;
+    }
+    .header .menu_bar .menu_icon button.active .line:nth-child(2) {
+        transform: rotate(-45deg) translate(-5px, 0px);
+    }
+    .header .menu_bar .menu_icon button.active .line:last-child {
+        transform: rotate(45deg) translate(-5px, 0px);
+    }
+
+
+    .banner .banner_img img {
+        min-height: 700px;
+    }
+    .banner .banr_content h1 {
+        font-size: 50px;
+    }
+    .banner .banr_content p {
+        font-size: 26px;
+        line-height: 1.4;
+    }
+    .banner .shape1 {
+        display: none;
+    }
+    .banner .shape2 {
+        bottom: 150px;
+        right: 0;
+    }
+    .about {
+        padding-top: 50px;
+    }
+    .about .shape {
+        top: 20px;
+        max-width: 80px;
+    }
+    .about .shape img {
+        width: 100%;
+    }
+    .about .wraper {
+        justify-content: center;
+        row-gap: 25px;
+    }
+    .about .inner h3 {
+        line-height: 1.2;
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+    .about .inner p {
+        font-size: 20px;
+        line-height: 1.4;
+        margin-bottom: 0;
+    }
+    .our_courses {
+        padding: 50px 0;
+        margin-top: 45px;
+    }
+    .our_courses .shape2 {
+        left: 0;
+    }
+    .our_courses .wraper {
+        row-gap: 35px;
+        justify-content: center;
+    }
+    .our_courses .titel h2 {
+        margin-bottom: 30px !important;
+    }
+    .our_courses .inner .course_detl h3 {
+        font-size: 25px;
+        line-height: 1.2;
+        margin: 20px 0;
+    }
+    .our_courses .inner .course_detl p {
+        font-size: 20px;
+        line-height: 1.4;
+        margin-bottom: 30px;
+    }
+    .our_courses .shape {
+        right: 0;
+    }
+    .about_us {
+        padding: 50px 0;
+    }
+    .about_us .wraper {
+        row-gap: 30px;
+    }
+    .about_us::before {
+        width: 52%;
+        height: 200px;
+    }
+    .about_us .right_inner {
+        padding-left: 30px;
+    }
+    .about_us .right_inner .titel h4 {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+    .about_us .right_inner .titel p {
+        font-size: 18px;
+        line-height: 1.4;
+        margin-bottom: 40px;
+    }
+    .about_us .shape {
+        left: 40px;
+    }
+    .instructors {
+        padding: 50px 0;
+    }
+    .instructors .titel h2 {
+        margin-bottom: 30px;
+    }
+    .instructors .parent_box .child_box .detail .name {
+        padding: 15px 0;
+        margin-top: -50px;
+    }
+    .instructors .parent_box .child_box .detail .name h4 {
+        font-size: 22px;
+        line-height: 1.2;
+    }
+    .instructors .parent_box .child_box .detail .name p {
+        font-size: 16px;
+        line-height: 1;
+    }
+    .reviews {
+        padding: 50px 0;
+    }
+    .reviews .titel h2 {
+        margin-bottom: 30px;
+    }
+    .reviews .parent .revw_text p {
+        font-size: 18px;
+        line-height: 1.5;
+        margin-bottom: 30px;
+    }
+    .gallery {
+        padding-top: 45px;
+    }
+    .gallery .titel h6 {
+        font-size: 26px;
+        line-height: 1.2;
+        margin-bottom: 30px;
+    }
+    .gallery .bottom_text p {
+        margin-top: 40px;
+        margin-bottom: 0;
+    }
+    .our_app {
+        min-height: 600px;
+        margin-top: 45px;
+    }
+    .register {
+        padding: 50px 0;
+    }
+    .register .regs_content .titel h2 {
+        margin-bottom: 30px;
+    }
+    .register .regs_content .titel p {
+        font-size: 20px;
+        line-height: 1.4;
+    }
+    .footer .wraper {
+        row-gap: 25px;
+    }
+    .footer .inner .logo {
+        max-width: 100px;
+    }
+    .footer .inner .titel h2 {
+        font-size: 37.5px;
+        line-height: 1.2;
+    }
+    .footer .inner .titel p {
+        font-size: 20px;
+        line-height: 1.4;
+        padding-right: 15px;
+    }
+    .footer .inner h4 {
+        margin-bottom: 30px;
+    }
+    .footer .inner .fotr_menu li a {
+        font-size: 16px;
+        line-height: 1.2;
+    }
+    .footer .inner .contact li p, .footer .inner .contact li a {
+        font-size: 16px;
+    }
+    .footer .inner .social_link {
+        margin-top: 30px;
+    }
+/* ============================991px end====================== */    
+}
+
+/* ============================767px start====================== */
+@media only screen and (max-width: 767px) {
+    .common_btn {
+        font-size: 18px;
+        padding: 18px 32px;
+    }
+    .titel h2 {
+        font-size: 32px !important;
+        line-height: 1.2 !important;
+        margin-bottom: 10px !important;
+    }
+    .header {
+        padding-top: 20px;
+    }
+    .banner .banner_img img {
+        min-height: 520px;
+    }
+    .banner .banr_content h1 {
+        font-size: 45px;
+    }
+    .banner .banr_content h1 span {
+        display: inline-block;
+    }
+    .banner .banr_content p {
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+    .banner .shape2 {
+        bottom: 30px;
+    }
+    .about .inner h3 {
+        font-size: 24px;
+    }
+    .about .inner p {
+        font-size: 16px;
+    }
+    .our_courses .inner .course_detl p {
+        font-size: 16px;
+    }
+    .about_us .right_inner {
+        padding-left: 0;
+    }
+    .about_us .right_inner .titel h4 {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    .about_us .right_inner .titel p {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    .instructors .parent_box .child_box .detail {
+        padding: 0 20px;
+    }
+    .instructors .parent_box .child_box .detail .social {
+        margin-top: 30px;
+    }
+    .instructors .parent_box .child_box .detail .social li a {
+        font-size: 18px;
+    }
+    .reviews .parent .revw_text p {
+        font-size: 16px;
+    }
+    .reviews .parent .slick-dots li {
+        width: 10px;
+        height: 10px;
+    }
+    .gallery .titel h6 {
+        font-size: 22px;
+    }
+    .gallery .inner img {
+        height: 300px;
+    }
+    .gallery .bottom_text p {
+        font-size: 16px;
+    }
+    .our_app {
+        min-height: 450px;
+    }
+    .register .regs_content .titel p {
+        font-size: 16px;
+    }
+    .footer .inner .titel h2 span {
+        display: inline-block;
+    }
+/* ============================767px end====================== */    
+}
+
+/* ============================575px start====================== */
+@media only screen and (max-width: 575px) {
+
+/* ============================575px end====================== */    
+}
+
+/* ============================480px start====================== */
+@media only screen and (max-width: 480px) {
+    .titel h2 {
+        font-size: 26px !important;
+    }
+    .header .logo {
+        max-width: 75px;
+    }
+    .banner .banr_content {
+        bottom: 40px;
+    }
+    .banner .banr_content h1 {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+    .banner .banr_content p {
+        font-size: 18px;
+    }
+    .banner .shape2 {
+        max-width: 70px;
+    }
+    .banner .shape2 img {
+        width: 100%;
+    }
+    .about .inner h3 {
+        font-size: 22px;
+        margin-top: 20px;
+    }
+    .about .inner h3 span {
+        display: inline-block;
+    }
+    .our_courses .inner .course_detl h3 {
+        font-size: 22px;
+        margin: 15px 0;
+    }
+    .our_courses .shape {
+        max-width: 70px;
+        bottom: -34px;
+    }
+    .our_courses .shape img {
+        width: 100%;
+    }
+    .about_us .shape {
+        display: none;
+    }
+    .instructors .parent_box .child_box .detail .social {
+        margin-top: 25px;
+    }
+    .instructors .slick-dots li {
+        width: 10px;
+        height: 10px;
+    }
+    .instructors .slick-dots li button:before {
+        font-size: 10px;
+        color: #fff;
+    }
+    .instructors .slick-dots {
+        bottom: -35px;
+    }
+    .our_app {
+        min-height: 340px;
+    }
+    .footer .inner .logo {
+        max-width: 80px;
+    }
+    .footer .inner .titel p {
+        font-size: 18px;
+    }
+    .footer .inner .fotr_menu li {
+        margin-bottom: 10px;
+    }
+    .footer .inner .fotr_menu li a {
+        font-size: 15px;
+    }
+    .footer .inner .contact li {
+        margin-bottom: 10px;
+    }
+    .footer .inner .contact li p, .footer .inner .contact li a {
+        font-size: 15px;
+    }
+/* ============================480px end====================== */    
+}
